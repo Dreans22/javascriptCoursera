@@ -41,7 +41,8 @@ button.onclick = endTest;
             outputDiv.innerHTML = "<h2>Resultados de la Prueba de Escritura:</h2>" +
                 "<p>Palabras Escribidas: " + typedWords + "</p>" +
                 "<p>Tiempo Transcurrido: " + timeElapsed.toFixed(2) + " segundos</p>" +
-                "<p>Palabras Por Minuto (WPM): " + wpm + "</p>";
+                "<p>Palabras Por Minuto (WPM): " + wpm + "</p>"+
+                "<p>Largo del texto: "+userTypedText.length+"</p>";
 
             // Reiniciar el botón
             var button = document.getElementById("btn");
