@@ -12,6 +12,13 @@
     <input type="number" id="input1"><br><br>
     <label for="input2">Ingresa Número 2:</label>
     <input type="number" id="input2"><br><br>
+    <label for="operacion">Operacion a realizar</label>
+    <select name="operacion" id="operacion">
+        <option value="sum">Suma</option>
+        <option value="rest">Resta</option>
+        <option value="multiplicacion">multiplicacion</option>
+        <option value="division">Division</option>
+    </select><br><br>
     <button onclick="performOperation()">Realizar Operación</button>
     <p id="result"></p>
     <script src="debug_code.js"></script>
